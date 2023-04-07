@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def about
+    @about_me = "My name Is Olivia Russell.."
   end
   
 end
